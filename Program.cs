@@ -8,7 +8,13 @@ namespace AOKata
 {
     class Program
     {
-        
+        /// <summary>
+        /// The program class contains only the main function.
+        /// This function's task is to take input from the user in form x,x,x,...,x e.g. for the word doc example 1,1,2,2,3,3,4,5
+        /// It then splits it into the numbers, then tries to parse them to integers and stores them in a list of ints for the
+        /// other classes to be able to use.
+        /// It also takes the final price of the order and displays it at the end of the run.
+        /// </summary>
         static void Main(string[] args)
         {
             Basket shoppingBasket;
