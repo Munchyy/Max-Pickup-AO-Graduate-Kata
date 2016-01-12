@@ -33,7 +33,5 @@ namespace AOKata
             bookNumber = bookNum;
             this.price = price;
         }
-
-        
     }
 }
